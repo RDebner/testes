@@ -1,6 +1,7 @@
 const nome = "Pedro" 
-const anoDeNascimento = 2010
-const anoAtual = 2022
+const anoDeNascimento = 2000
+const diaAtual = new Date()
+const anoAtual =  diaAtual.getFullYear()
 const idade = anoAtual - anoDeNascimento
 
 if (idade >= 18){
