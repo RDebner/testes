@@ -1,6 +1,6 @@
-let idade = 21
+let idade = 4
 if (idade>=18) {
-    console.log("acesso liberado")
+    console.log("Bom jogo!")
 } else {
-    console.log("acesso negado")
+    console.log("acesso negado!")
 }
